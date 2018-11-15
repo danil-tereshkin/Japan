@@ -1,0 +1,17 @@
+div {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+}
+
+div:before {
+    content: '';
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
